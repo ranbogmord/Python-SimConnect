@@ -717,6 +717,20 @@ class AircraftEvents():
 			(b'RADIO_SELECTED_DME_IDENT_DISABLE', "Turns off the identification sound for the selected DME.", "Shared Cockpit"),
 			(b'RADIO_SELECTED_DME_IDENT_SET', "Sets the DME identification sound to the given filename.", "Shared Cockpit"),
 			(b'RADIO_SELECTED_DME_IDENT_TOGGLE', "Turns on or off the identification sound for the selected DME.", "Shared Cockpit"),
+			(b'COM_RADIO_SET_HZ', "Sets COM frequency (Hz)", ""),
+			(b'COM_STBY_RADIO_SET_HZ', "", ""),
+			(b'COM1_STORED_FREQUENCY_SET_HZ', "Sets COM 1 stored  frequency (Hz)", ""),
+			(b'COM2_RADIO_SET_HZ', "Sets COM2 frequency (Hz)", ""),
+			(b'COM2_STBY_RADIO_SET_HZ', "Sets COM 2 standby frequency (Hz)", ""),
+			(b'COM3_RADIO_SET_HZ', "Sets COM 3 frequency (Hz)", ""),
+			(b'COM3_STBY_RADIO_SET_HZ', "Sets COM  3 standby frequency (Hz)", "All aircraft"),
+			(b'COM3_STORED_FREQUENCY_SET_HZ', "Sets COM  3 stored frequency (Hz)", ""),
+			(b'NAV1_RADIO_SET_HZ', "Sets NAV 1 frequency (Hz)", ""),
+			(b'NAV1_STBY_SET_HZ', "Sets NAV 1 frequency (Hz)", ""),
+			(b'NAV2_RADIO_SET_HZ', "Sets NAV 2 frequency (Hz)", ""),
+			(b'NAV2_STBY_SET_HZ', "Sets NAV 2 standby frequency (Hz)", ""),
+			(b'NAV3_RADIO_SET_HZ', "Sets NAV 3 frequency (Hz)", ""),
+			(b'NAV3_STBY_SET_HZ', "Sets NAV 3 standby frequency (Hz)", ""),
 		]
 
 	class __Instruments(EventHelper):
